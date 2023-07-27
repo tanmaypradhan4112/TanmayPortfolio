@@ -6,12 +6,12 @@ import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
 
 // https://astro.build/config
-import netlify from '@astrojs/netlify/edge-functions';
+import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tanmaypradhan.github.io',
-  base: '/TanmayPradhan',
+  base: '/',
   integrations: [mdx(), sitemap(), tailwind(), image({
     serviceEntryPoint: '@astrojs/image/sharp',
     cacheDir: "./.cache/image",
