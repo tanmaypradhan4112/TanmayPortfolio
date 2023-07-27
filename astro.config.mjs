@@ -9,7 +9,7 @@ import image from "@astrojs/image";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://tanmaypradhan.github.io',
-  base: '/home',
+  base: '/TanmayPradhan',
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
