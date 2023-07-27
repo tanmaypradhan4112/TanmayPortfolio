@@ -10,13 +10,13 @@ import netlify from '@astrojs/netlify/functions';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://tanmaypradhan.github.io',
+  site: 'https://tanmaypradhan.netlify.app/',
   base: '/',
   integrations: [mdx(), sitemap(), tailwind(), image({
     serviceEntryPoint: '@astrojs/image/sharp',
     cacheDir: "./.cache/image",
     logLevel: 'debug'
   })],
-  output: "server",
-  adapter: netlify()
+  // output: "server",
+  // adapter: netlify()
 });
