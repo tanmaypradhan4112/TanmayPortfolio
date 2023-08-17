@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+@font-face {
+    font-family: "PreigoText";
+    src: url("../Priego/Demo_Fonts/Fontspring-DEMO-priego-light.otf");
+}
+
+@font-face {
+    font-family: "PreigoHeading";
+    src: url("../Priego/Demo_Fonts/Fontspring-DEMO-priego-bold.otf");
+}
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }

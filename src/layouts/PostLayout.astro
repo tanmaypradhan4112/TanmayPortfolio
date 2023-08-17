@@ -1,6 +1,6 @@
 ---
 import { BlogSchema } from "../content/config";
-import BaseLayout from "./BaseLayout.astro";
+import ArticleLayout from "./ArticleLayout.astro";
 import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
 
@@ -13,7 +13,7 @@ const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "@astrojs/image/components";
 ---
 
-<BaseLayout title={title} description={description} image={heroImage}>
+<ArticleLayout title={title} description={description} image={heroImage}>
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
       {
@@ -45,4 +45,4 @@ import { Image } from "@astrojs/image/components";
       <slot />
     </article>
   </main>
-</BaseLayout>
+</ArticleLayout>
