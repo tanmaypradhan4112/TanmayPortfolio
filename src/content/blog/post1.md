@@ -1,9 +1,9 @@
 ---
 title: "Build Personal Portfolio using Astro"
-description: "Explore how to build a stunning and personalized portfolio website using Astro, a cutting-edge static site builder and deploy it on Netlify."
+description: "Explore how to build a stunning and personalized portfolio website using Astro, a cutting edge static site builder and deploy it on Netlify."
 pubDate: "July 31, 2023"
 heroImage: "https://astro.build/_astro/astro-netlify-social.2cd5322d.webp"
-badge: "Latest"
+badge: ""
 ---
 # Getting Started
 ###  What is Astro?
