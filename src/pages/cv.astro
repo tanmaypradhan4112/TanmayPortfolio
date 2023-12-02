@@ -1,11 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
-
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-
   <div class="mb-5">
     <div class="font-preigohead text-3xl w-full font-bold">Education</div>
   </div>
@@ -27,30 +25,56 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
+      title="CollegeDunia, Data Analyst"
+      subtitle="From August 2023 to January 2024"
+    >
+      Employing Python and the Deep Translator library, I spearheaded a
+      groundbreaking initiative within Google Docs to facilitate automatic
+      translation from English to Hindi. This sophisticated solution not only
+      slashed manual labor by forty percent but also significantly elevated translation
+      precision, fostering heightened user satisfaction. Simultaneously, I
+      engineered a robust application utilizing the Python-LinkedIn API for
+      expeditious user identity authentication, resulting in a remarkable 30 percent
+      reduction in verification time. Through the integration of advanced
+      algorithms, the system achieved a notable forty percent increase in accurately
+      identifying AI generated content within student reviews. Furthermore,
+      employing Python and ImageForensic, I automated image authenticity
+      verification, substantially enhancing efficiency and expediting the
+      photo-edit detection process by an impressive 70 percent. This comprehensive
+      suite of innovations has revolutionized various processes, delivering
+      tangible improvements in productivity and accuracy.
+    </TimeLineElement>
+
+    <TimeLineElement
       title="DigiQuanta, Full Stack Developer"
       subtitle="From January 2023 to August 2023"
     >
-    Led the revamping of the PARI website using React JS and Tailwind CSS, creating a modern and user friendly interface. Additionally, I efficiently migrated over 120 pages of content from Wagtail to Strapi, enabling better content management and flexibility. Throughout the process, I successfully addressed various backend glitches, ensuring smooth functionality and data security for the website.
+      Led the revamping of the PARI website using React JS and Tailwind CSS,
+      creating a modern and user friendly interface. Additionally, I efficiently
+      migrated over 120 pages of content from Wagtail to Strapi, enabling better
+      content management and flexibility. Throughout the process, I successfully
+      addressed various backend glitches, ensuring smooth functionality and data
+      security for the website.
     </TimeLineElement>
-
 
     <TimeLineElement
       title="Swecha Telangana, Glug Core Member"
-      subtitle="From May 2022 to Present"
+      subtitle="From May 2022 to August 2024"
     >
-    Developed a conference website, serving as the central hub for information,
-    registration, and updates, contributing to the success of the ICDE-ACT Conference
-    2023.Representing my college and leading the Free Software Movement of India in 15+
-    colleges.Supervised the development of the REDI-HACKATHON website with a team of 5 for
-    the Swecha's Hackathon Event.
+      Developed a conference website, serving as the central hub for
+      information, registration, and updates, contributing to the success of the
+      ICDE-ACT Conference 2023.Representing my college and leading the Free
+      Software Movement of India in 15+ colleges.Supervised the development of
+      the REDI-HACKATHON website with a team of 5 for the Swecha's Hackathon
+      Event.
     </TimeLineElement>
     <TimeLineElement
       title="Amazon, Apprenticeship"
       subtitle="From July 2023 to July 2023"
     >
-    Undergone training by renowned Machine Learning specialists at Amazon. 
-    Learned the following ML concepts:
-      Supervised Learning, Unsupervised Learning, Neural Network, Deep Learning and more
+      Undergone training by renowned Machine Learning specialists at Amazon.
+      Learned the following ML concepts: Supervised Learning, Unsupervised
+      Learning, Neural Network, Deep Learning and more
     </TimeLineElement>
   </div>
 
@@ -63,19 +87,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       <a href="#" target="_blank"> Fundamentals of Deep Learning ▫️ Nvidia</a>
     </li>
     <li>
-      <a href="#" target="_blank"> Data Analytics and Visualization Virtual Experience ▫️ Accenture
+      <a href="#" target="_blank">
+        Data Analytics and Visualization Virtual Experience ▫️ Accenture
       </a>
     </li>
     <li>
-      <a href="#" target="_blank"> Artificial Intelligence Algorithms Models and Limitations ▫️ Coursera
+      <a href="#" target="_blank">
+        Artificial Intelligence Algorithms Models and Limitations ▫️ Coursera
       </a>
     </li>
     <li>
-      <a href="#" target="_blank"> Programming for Everybody ▫️ University of Michigan
+      <a href="#" target="_blank">
+        Programming for Everybody ▫️ University of Michigan
       </a>
     </li>
     <li>
-      <a href="#" target="_blank"> Artificial Intelligence Data Fairness and Bias ▫️  Coursera
+      <a href="#" target="_blank">
+        Artificial Intelligence Data Fairness and Bias ▫️ Coursera
       </a>
     </li>
   </ul>
@@ -112,5 +140,4 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Contribution to Open Source</li>
     <li>Learning New Technologies</li>
   </ul>
-
 </BaseLayout>
